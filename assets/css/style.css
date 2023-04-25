@@ -8,10 +8,11 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(120deg, #16215b, #787CA9);
+    background: linear-gradient(120deg, #F25929, #E0EAF2);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .relogio{
@@ -46,4 +47,17 @@ body{
 
 .relogio span.tempo{
     font-size: 13px;
+}
+
+.botao {
+    margin-top: 8%;
+}
+
+.relogio-analogico {
+    padding: 12px;
+    width: 25vh;
+    background-color: black;
+    color: white;
+    border: 2px solid #677eff;
+    border-radius: 5px;
 }
