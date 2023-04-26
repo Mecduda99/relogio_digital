@@ -66,3 +66,20 @@ body{
     border: 2px solid #677eff;
     border-radius: 5px;
 }
+
+.relogio-2 {
+    display: inline-block;
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.numero {
+    background-color: rgba(255, 0, 0, 0.418);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 50vh; */
+
+}
